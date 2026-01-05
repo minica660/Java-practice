@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>テストHTML</title>
+    </head>
+    <body>
+        <h1>テストHTML!!</h1>
+        <form action="/javaweb/register" method="post">
+            送信メッセージ：<input type="text" name="name" size="10"/><br/>
+            プログラミング学習歴：<input type="radio" name="age" value="one" /> 1年未満
+                 <input type="radio" name="age" value="two" />2歳以上<br/>
+            学習言語：<input type="checkbox" name="lang" value="Java" />Java
+                     <input type="checkbox" name="lang" value="Python"/>Python
+                     <input type="checkbox" name="lang" value="JavaScript"/>JavaScript <br/>
+                     <input type="checkbox" name="lang" value="JavaScript"/>PHP <br/>
+            メモ内容：<br/>
+            <textarea name="msg" rows="5" cols="50">入力欄・・・</textarea><br/>
+            <input type="submit" value="送信"/>
+            <input type="submit" value="送信取り消し"/>
+            
+        </form>
+    </body>
+</html>
