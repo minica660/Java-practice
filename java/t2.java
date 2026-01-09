@@ -1,5 +1,6 @@
 //基本練習
 //実行時に数字を2つ入力し、和を返す
+//例： java t2 1 2
 public class t2 {
 
     public static void main(String[] args) {
